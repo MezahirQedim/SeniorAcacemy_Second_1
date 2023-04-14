@@ -1,0 +1,54 @@
+/* .aylar
+ {
+    top: calc(100% + 5px); 
+    right: 0;
+    width: max-content;
+    max-width: 400px;
+    background-color: yellow;
+    ;
+    overflow: hidden;
+    transform-origin: top right;
+    transform: scale(0);
+    transition: transform .3s ease 0s;
+}
+
+
+.aylar.active {
+    transform: scale(1);
+    transition: transform .5s var(--transition-cubic);
+} */
+
+.test {
+    background-color: rgb(109, 104, 238);
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+    position: absolute;
+    right: 300px;
+    transform-origin: top right;
+    transform: scale(0);
+    transition: transform .5s ease 0.1s;
+
+}
+
+.test.active {
+    transition: transfrom .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: scale(1);
+}
+
+.tooltip_2 {
+    background-color: rgb(109, 104, 238);
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+    position: absolute;
+    right: 300px;
+    transform-origin: top right;
+    transform: scale(0);
+    transition: transform .5s ease 0.1s;
+}
+
+.tooltip_2.active {
+    transition: transfrom .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: scale(1);
+}
